@@ -2,7 +2,7 @@ import { Calendar, ArrowRight } from "lucide-react";
 
 function RightSidebar() {
   return (
-    <div className="w-85 h-screen border-l px-5 py-4 overflow-y-auto">
+<div className="w-85 h-full border-l border-gray-300 px-5 py-4 overflow-y-auto">
 
       <div className="bg-blue-100 rounded-2xl p-4 mb-10 relative overflow-hidden border border-blue-200">
 
@@ -17,11 +17,11 @@ function RightSidebar() {
           </span>
         </div>
 
-        <p className="text-sm  text-gray-600 mb-2">
+        <p className="text-sm text-gray-600 mb-2">
           QUESTION OF THE DAY
         </p>
 
-        <h2 className="text-xl font-semibold mb-4  text-gray-700">
+        <h2 className="text-xl font-semibold mb-4 text-gray-700">
           Max Consecutive Ones
         </h2>
 
@@ -35,7 +35,6 @@ function RightSidebar() {
             170 people have attempted
           </p>
         </div>
-
 
         <button className="w-68 h-10 bg-black text-white py-3 rounded-lg flex items-center justify-center gap-3 text-sm font-medium">
           Solve Now
@@ -56,9 +55,8 @@ function RightSidebar() {
         Your schedule for the next days
       </p>
 
-      <hr className="mb-6" />
+      <hr className="mb-6 border-gray-300" />
 
-    
       <div className="bg-gradient-to-r from-orange-400 to-pink-500 text-white px-6 py-3 rounded-lg mb-8 font-medium text-sm">
         You have 3 events today
       </div>
@@ -74,47 +72,45 @@ function RightSidebar() {
           <p className="text-sm font-medium">Lecture</p>
           <p className="text-gray-500 mb-3 text-xs">9:00 AM - 10:30 AM</p>
 
-          <hr className="mb-4" />
+          <hr className="mb-4 border-gray-300" />
 
           <p className="text-xs font-medium text-gray-500">DSA - A</p>
           <p className="text-sm font-medium">Lecture</p>
           <p className="text-gray-500 mb-3 text-xs">10:30 AM - 12:00 PM</p>
 
-          <hr className="mb-4" />
+          <hr className="mb-4 border-gray-300" />
 
           <p className="text-xs font-medium text-gray-500">Maths II Tut 1 - A</p>
           <p className="text-sm font-medium">Lecture</p>
           <p className="text-gray-500 mb-3 text-xs">1:00 PM - 2:20 PM</p>
-           <hr className="mb-6" />
+          <hr className="mb-6 border-gray-300" />
         </div>
-    
-
       </div>
+
       <div className="flex gap-6">
         <div className="text-center">
           <p className="text-xl font-medium">19</p>
           <p className="text-sm">THU</p>
         </div>
-      <div className="flex-1">
+        <div className="flex-1">
           <p className="text-xs font-medium text-gray-500">WAP - A</p>
           <p className="text-sm font-medium">Lecture</p>
           <p className="text-gray-500 mb-3 text-xs">9:00 AM - 10:30 AM</p>
 
-          <hr className="mb-4" />
+          <hr className="mb-4 border-gray-300" />
 
           <p className="text-xs font-medium text-gray-500">DSA - A</p>
           <p className="text-sm font-medium">Lecture</p>
           <p className="text-gray-500 mb-3 text-xs">10:30 AM - 12:00 PM</p>
 
-          <hr className="mb-4" />
+          <hr className="mb-4 border-gray-300" />
 
           <p className="text-xs font-medium text-gray-500">Maths II Tut 1 - A</p>
           <p className="text-sm font-medium">Lecture</p>
           <p className="text-gray-500 mb-3 text-xs">1:00 PM - 2:20 PM</p>
-          <hr className="mb-6" />
+          <hr className="mb-6 border-gray-300" />
         </div>
-
-        </div>
+      </div>
 
     </div>
   );
